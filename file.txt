@@ -1,0 +1,54 @@
+//1.create rooms
+
+{
+    "number": 1,
+    "seatsAvailable":200,
+    "amenties":["hair dryer","tv","washing machin"],
+    "pricePerHour":"5000rs"
+}
+
+//2.booking aroom with
+
+ {
+     "customerName":"yogesh",
+    "date":"6-6-2023",
+    "startTime":"6.00am",
+    "endTime":"10.00am",
+    "roomId":1,
+    "bookingStatus": "Confirmed"
+ }
+
+ //3.List all rooms with booked data with
+ [
+    {
+        "roomName": 1,
+        "bookedStatus": "Booked",
+        "customerName": "yogesh",
+        "date": "6-6-2023",
+        "startTime": "6.00am",
+        "endTime": "10.00am"
+    }
+]
+ //4.List all customer with booked data with
+
+ [
+    {
+        "customerName": "yogesh",
+        "roomName": 1,
+        "date": "6-6-2023",
+        "startTime": "6.00am",
+        "endTime": "10.00am"
+    }
+ ]
+ //5.List how many times a customer has booked
+ [
+  {
+        "customerName": "yogesh",
+        "roomName": 1,
+        "date": "6-6-2023",
+        "startTime": "6.00am",
+        "endTime": "10.00am",
+        "bookingId": 1,
+        "bookingStatus": "Confirmed"
+    }
+ ]
